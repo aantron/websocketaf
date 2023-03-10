@@ -1,3 +1,5 @@
+module Httpaf = Dream_httpaf_.Httpaf
+
 module Headers = Httpaf.Headers
 
 let create_request ~nonce ~headers target =

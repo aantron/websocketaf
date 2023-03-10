@@ -1,3 +1,5 @@
+module Httpaf = Dream_httpaf_.Httpaf
+
 module IOVec = Httpaf.IOVec
 
 module Payload : sig

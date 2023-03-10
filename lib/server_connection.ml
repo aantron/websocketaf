@@ -1,3 +1,6 @@
+module Gluten = Dream_gluten.Gluten
+module Httpaf = Dream_httpaf_.Httpaf
+
 module IOVec = Httpaf.IOVec
 module Server_handshake = Gluten.Server
 

@@ -32,6 +32,8 @@
     POSSIBILITY OF SUCH DAMAGE.
   ----------------------------------------------------------------------------*)
 
+module Websocketaf = Dream_websocketaf.Websocketaf
+
 open Websocketaf
 
 module type Server = sig

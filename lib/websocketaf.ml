@@ -1,3 +1,5 @@
+module Httpaf = Dream_httpaf_.Httpaf
+
 module IOVec = Httpaf.IOVec
 module Client_handshake = Client_handshake
 module Client_connection = Client_connection

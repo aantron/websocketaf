@@ -32,6 +32,8 @@
  *  POSSIBILITY OF SUCH DAMAGE.
  *----------------------------------------------------------------------------*)
 
+module Httpaf = Dream_httpaf_.Httpaf
+
 module IOVec = Httpaf.IOVec
 
   type t =

@@ -1,3 +1,5 @@
+module Websocketaf_lwt = Dream_websocketaf_lwt.Websocketaf_lwt
+
 module Server :
   Websocketaf_lwt.Server
     with type socket := Lwt_unix.file_descr

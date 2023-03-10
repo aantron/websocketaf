@@ -1,3 +1,6 @@
+module Gluten_lwt = Dream_gluten_lwt.Gluten_lwt
+module Httpaf = Dream_httpaf_.Httpaf
+
 let sha1 s =
   s
   |> Digestif.SHA1.digest_string

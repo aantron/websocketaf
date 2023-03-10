@@ -1,3 +1,5 @@
+module Gluten_lwt = Dream_gluten_lwt.Gluten_lwt
+
 module type Server = Websocketaf_lwt_intf.Server
 
 module type Client = Websocketaf_lwt_intf.Client
